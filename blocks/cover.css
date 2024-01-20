@@ -12,7 +12,6 @@
 .cover__background:hover {
   opacity: 50%;
 }
-
 .cover__title {
   font-size: 72px;
   font-weight: 900;
@@ -29,8 +28,8 @@
   letter-spacing: 0em;
   text-align: center;
   width: 280px;
-  height: 66px;
-  margin: 32px auto 32px;
+  height: 22px;
+  margin: 32px auto 0;
   color: #ffffff;
 }
 .cover__paragraph{
@@ -42,30 +41,30 @@
   text-align: center;
   width: 280px;
   height: 66px;
-  margin-top: 0;
+  margin: 0 auto 32px;
   color: #ffffff;
+  display: flex;
 }
 .cover__form__button {
   width: 198px;
   height: 48px;
   border-radius: 4px;
   background: #0278fe;
-  color: #ffffff;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
   letter-spacing: 0em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
+  color: #ffffff;
 }
-
 .cover__form__button:hover {
   background: #0063d2;
 }
-
 @media screen and (max-width: 768px) {
   .cover__background {
     margin: 92px auto 0;
@@ -86,13 +85,15 @@
 
   .cover__subtitle {
     width: 280px;
+    height: 16px;
     margin: 16px auto 0;
     font-size: 14px;
     line-height: 16px;
   }
   .cover__paragraph{
     width: 280px;
-    margin: 0 auto ;
+    height: 32px;
+    margin: 0 auto;
     font-size: 14px;
     line-height: 16px;
   }

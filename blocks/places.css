@@ -118,6 +118,11 @@
   border-radius: 4px;
   background: #0278fe;
   color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
 }
 .form__button:hover {
   background: #0063d2;
@@ -131,9 +136,6 @@
     grid-template-rows: 67px 340px 48px;
     column-gap: 28px;
     row-gap: 24px;
-  }
-  .places__container-Mexico {
-    margin: 41px auto 0;
   }
   .places__container-Criccieth {
     margin: 31px auto 0;
@@ -226,11 +228,9 @@
     "artista"
     "place"
     "text"
-    "button"
-    ;
+    "button";
     row-gap: 0;
   }
-
   .places__container-Criccieth {
     margin: 16px auto 0;
     width: 320px;
@@ -298,7 +298,6 @@
     width: 295px;
     margin: 0 auto 0 0;
   }
-
   .places__img {
     width: 320px;
     height: 320px;
@@ -341,11 +340,10 @@ margin-top: 7px;
     margin-top: 8px;
     margin-left: 16px;
   }
-  ..form__button-Berea{
+  .form__button-Berea{
     margin-top: 6px;
   }
   .form__button-Muramvya{
     margin-top: 4px;
   }
-
 }
