@@ -40,7 +40,6 @@
 .places__title-Berea {
   width: 584px;
 }
-
 .places__artista {
   grid-area: artista;
   width: 456px;
@@ -53,7 +52,7 @@
 .places__artista-Berea {
   margin: 76px auto auto;
 }
-.places__artista__heading {
+.places__artista-heading {
   width: 58px;
   height: 15px;
   font-family: Inter;
@@ -65,7 +64,7 @@
   color: #aaaaaa;
   margin: 0 auto 8px 0;
 }
-.places__artista__nombre {
+.places__artista-nombre {
   width: 456px;
   height: 22px;
   font-size: 18px;
@@ -111,7 +110,7 @@
 .places__paragraph-bottom-Muramvya {
   margin: 25px auto 0;
 }
-.form__button {
+.places__button {
   grid-area: button;
   width: 355px;
   height: 48px;
@@ -124,7 +123,7 @@
   line-height: 22px;
   letter-spacing: 0em;
 }
-.form__button:hover {
+.places__button:hover {
   background: #0063d2;
 }
 @media screen and (max-width: 768px) {
@@ -175,11 +174,11 @@
     width: 295px;
     margin: 0px auto 0 0;
   }
-  .places__artista__nombre {
+  .places__artista-nombre {
     width: 295px;
     margin: 0 auto 0 0;
   }
-  .places__artista__nombre-Muramvya{
+  .places__artista-nombre-Muramvya{
  width: 352px;
   }
   .places__img {
@@ -211,7 +210,7 @@
   .places__paragraph-bottom-Muramvya {
     margin: 11px auto 0;
   }
-  .form__button {
+  .places__button {
     margin-top: 24px;
   }
 }
@@ -294,7 +293,7 @@
     height: 67px;
     margin-top: 30px;
   }
-  .places__artista__nombre {
+  .places__artista-nombre {
     width: 295px;
     margin: 0 auto 0 0;
   }
@@ -335,15 +334,15 @@ margin-top: 7px;
   .places__paragraph-bottom-Muramvya {
     margin: 25px auto 0;
   }
-  .form__button {
+  .places__button {
     width: 288px;
     margin-top: 8px;
     margin-left: 16px;
   }
-  .form__button-Berea{
+  .places__button-Berea{
     margin-top: 6px;
   }
-  .form__button-Muramvya{
+  .places__button-Muramvya{
     margin-top: 4px;
   }
 }

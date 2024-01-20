@@ -45,7 +45,7 @@
   color: #ffffff;
   display: flex;
 }
-.cover__form__button {
+.cover__button {
   width: 198px;
   height: 48px;
   border-radius: 4px;
@@ -62,7 +62,7 @@
   text-align: left;
   color: #ffffff;
 }
-.cover__form__button:hover {
+.cover__button:hover {
   background: #0063d2;
 }
 @media screen and (max-width: 768px) {
@@ -97,7 +97,7 @@
     font-size: 14px;
     line-height: 16px;
   }
-  .cover__form__button {
+  .cover__button {
     margin: 16px auto 0;
   }
 }
