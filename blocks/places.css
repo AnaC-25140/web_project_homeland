@@ -1,0 +1,351 @@
+.places__container {
+  display: grid;
+  grid-template-columns: 456px 456px;
+  grid-template-rows: 152px 460px 48px;
+  grid-template-areas:
+    "title artista"
+    "place text"
+    "button .";
+  margin: 92px auto 0;
+  width: 984px;
+  height: 756px;
+  column-gap: 40px;
+  row-gap: 48px;
+}
+.places__container-Criccieth {
+  margin: 80px auto 0;
+}
+.places__container-Berea {
+  margin: 35px auto 0;
+}
+.places__container-Muramvya {
+  margin: 80px auto 0;
+  width: 984px;
+  height: 859px;
+}
+.places__container-Mexico {
+  margin: 51px auto 0;
+}
+.places__title {
+  grid-area: title;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 460px;
+  height: 152px;
+  margin-top: 0;
+}
+.places__title-Berea {
+  width: 584px;
+}
+
+.places__artista {
+  grid-area: artista;
+  width: 456px;
+  height: 45px;
+  margin: 107px auto 0 0;
+}
+.places__artista-Criccieth {
+  margin: 85px auto 0 0;
+}
+.places__artista-Berea {
+  margin: 76px auto auto;
+}
+.places__artista__heading {
+  width: 58px;
+  height: 15px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #aaaaaa;
+  margin: 0 auto 8px 0;
+}
+.places__artista__nombre {
+  width: 456px;
+  height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 auto 0;
+}
+.places__img {
+  grid-area: place;
+  width: 460px;
+  height: 460px;
+  text-align: left;
+}
+.places__paragraph {
+  grid-area: text;
+}
+.places__paragraph-top {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 auto 0;
+  width: 484px;
+}
+.places__paragraph-bottom {
+  margin: 25px auto 0;
+  width: 484px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.places__paragraph-bottom-Criccieth {
+  margin: 56px auto 0;
+}
+.places__paragraph-bottom-Berea {
+  margin: 17px auto 0;
+}
+.places__paragraph-bottom-Muramvya {
+  margin: 25px auto 0;
+}
+.form__button {
+  grid-area: button;
+  width: 355px;
+  height: 48px;
+  border-radius: 4px;
+  background: #0278fe;
+  color: #ffffff;
+}
+.form__button:hover {
+  background: #0063d2;
+}
+@media screen and (max-width: 768px) {
+  .places__container {
+    margin: 88px auto 0;
+    width: 720px;
+    height: 600px;
+    grid-template-columns: 350px 352px;
+    grid-template-rows: 67px 340px 48px;
+    column-gap: 28px;
+    row-gap: 24px;
+  }
+  .places__container-Mexico {
+    margin: 41px auto 0;
+  }
+  .places__container-Criccieth {
+    margin: 31px auto 0;
+    width: 720px;
+    height: 632px;
+  }
+  .places__container-Berea {
+    margin: 46px auto 0;
+    width: 720px;
+    height: 634px;
+  }
+  .places__container-Muramvya {
+    margin: 25px auto 0;
+    width: 720px;
+    height: 845px;
+  }
+  .places__container-Mexico{
+    margin: 25px auto 0;
+    width: 720px;
+    height: 525px;
+  }
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+    margin-top: 0;
+  }
+  .places__title-Berea {
+    width: 340px;
+  }
+  .places__title-Muramvya{
+    width: 340px;
+  }
+  .places__title-Mexico{
+    width: 340px;
+  }
+  .places__artista {
+    width: 295px;
+    margin: 0px auto 0 0;
+  }
+  .places__artista__nombre {
+    width: 295px;
+    margin: 0 auto 0 0;
+  }
+  .places__artista__nombre-Muramvya{
+ width: 352px;
+  }
+  .places__img {
+    grid-area: place;
+    width: 340px;
+    height: 340px;
+    text-align: left;
+  }
+  .places__paragraph-top {
+    width: 352px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .places__paragraph-bottom {
+    margin: 14px auto 0;
+    width: 352px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .places__paragraph-top-Criccieth{
+    margin: 24px auto 0;
+  }
+  .places__paragraph-bottom-Criccieth {
+    margin: 25px auto 0;
+  }
+  .places__paragraph-top-Muramvya{
+    margin-top: -19px;
+  }
+  .places__paragraph-bottom-Muramvya {
+    margin: 11px auto 0;
+  }
+  .form__button {
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places__container {
+    margin: 62px auto 0;
+    width: 320px;
+    height: 1169px;
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: 35px 97px 350px 631px 56px;
+    grid-template-areas:
+    "title "
+    "artista"
+    "place"
+    "text"
+    "button"
+    ;
+    row-gap: 0;
+  }
+
+  .places__container-Criccieth {
+    margin: 16px auto 0;
+    width: 320px;
+    height: 1209px;
+    grid-template-rows: 35px 119px 350px 650px 56px;
+  }
+  .places__container-Berea {
+    margin: 36px auto 0;
+    width: 320px;
+    height: 1186px;
+    grid-template-rows: 35px 89px 350px 658px 54px;
+  }
+  .places__container-Muramvya {
+    margin: 17px auto 0;
+    width: 320px;
+    height: 1433px;
+    grid-template-rows: 70px 97px 328px 886px 52px;
+  }
+  .places__container-Mexico {
+    margin: 41px auto 0;
+    grid-template-rows: 70px 89px 350px 550px 56px;
+  }
+  .places__title {
+    width: 288px;
+    height: 35px;
+    margin: 0 auto 0 16px;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0em;
+  }
+  .places__title-Berea {
+    width: 288px;
+    height: 35px;
+  }
+  .places__title-Muramvya{
+    width: 288px;
+    height: 70px;
+  }
+  .places__title-Mexico{
+    width: 288px;
+    height: 70px;
+  }
+  .places__artista {
+    width: 288px;
+    height: 67px;
+    margin: 30px auto 0 16px;
+  }
+  .places__artista-Mexico{
+    margin-top: 10px;
+  }
+  .places__artista-Criccieth{
+    width: 288px;
+    height: 89px;
+
+  }
+  .places__artista-Berea{
+    margin-top: 44px;
+  }
+  .places__artista-Muramvya{
+    width: 288px;
+    height: 67px;
+    margin-top: 30px;
+  }
+  .places__artista__nombre {
+    width: 295px;
+    margin: 0 auto 0 0;
+  }
+
+  .places__img {
+    width: 320px;
+    height: 320px;
+    margin: 30px auto 0;
+  }
+  .places__img-Muramvya{
+    margin: 8px auto 0;
+  }
+  .places__img-Nezahualcoyotl{
+    margin: 8px auto 0;
+  }
+  .places__paragraph-top {
+    width: 288px;
+    margin-top: 0;
+  }
+  .places__paragraph-bottom {
+    width: 288px;
+    margin-top: 7px;
+  }
+  .places__paragraph-top-Criccieth{
+    margin: 16px auto 0;
+  }
+  .places__paragraph-bottom-Criccieth {
+    margin: 10px auto 0;
+  }
+  .places__paragraph-top-Berea{
+margin-top: 7px;
+  }
+  .places__paragraph-bottom-Berea{
+    margin-top: 0;
+  }
+  .places__paragraph-top-Muramvya{
+    margin-top: 30px;
+  }
+  .places__paragraph-bottom-Muramvya {
+    margin: 25px auto 0;
+  }
+  .form__button {
+    width: 288px;
+    margin-top: 8px;
+    margin-left: 16px;
+  }
+  ..form__button-Berea{
+    margin-top: 6px;
+  }
+  .form__button-Muramvya{
+    margin-top: 4px;
+  }
+
+}

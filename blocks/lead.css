@@ -1,0 +1,153 @@
+.lead {
+  text-align: center;
+}
+.lead__title {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  margin: 90px auto 0;
+  max-width: 793px;
+}
+.lead__subtitle {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  margin: 32px auto 0;
+  max-width: 720px;
+}
+.lead__img {
+  width: 984px;
+  height: 615px;
+  margin: 64px auto 0;
+}
+.lead__intro {
+  width: 1017px;
+  height: 516px;
+  display: flex;
+  flex-direction: column;
+  margin: 92px auto 0;
+  flex-wrap: wrap;
+}
+.lead__intro__title {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 auto 0 auto;
+}
+.lead__intro__cita {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 40px auto 0 0;
+  max-width: 722px;
+}
+.lead__intro__cita-autor {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: right;
+  max-width: 720px;
+  margin-top: -24px;
+  margin-bottom: 0;
+}
+.lead__intro__parrafo {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 32px auto 0 0;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 720px;
+  }
+  .lead__subtitle {
+    max-width: 720px;
+    margin: 99px auto 0;
+  }
+  .lead__img {
+    width: 768px;
+    height: 480px;
+    margin: 69px 0 0;
+  }
+  .lead__intro {
+    display: block;
+    width: 720px;
+    height: 607px;
+    margin: auto;
+  }
+  .lead__intro__title {
+    max-width: 720px;
+    margin: 55px auto 0;
+  }
+  .lead__intro__cita {
+    max-width: 720px;
+    margin: 15px auto 0;
+  }
+  .lead__intro__cita-autor {
+    max-width: 720px;
+    margin-top: -24;
+    margin-bottom: 0;
+  }
+  .lead__intro__parrafo {
+    max-width: 720px;
+    margin: 32px auto 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    margin: 50px auto 0;
+  }
+  .lead__subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 60px auto 0;
+  }
+  .lead__img {
+    width: 320px;
+    height: 200px;
+    margin: 40px 0 0;
+  }
+  .lead__intro {
+    width: 288px;
+    height: 958px;
+    display: block;
+    margin: auto;
+  }
+
+  .lead__intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 44px auto 0;
+  }
+  .lead__intro__cita {
+    max-width: 288px;
+    letter-spacing: 0em;
+    line-height: 30px;
+    margin: 9px auto 0;
+  }
+  .lead__intro__cita-autor {
+    max-width: 288px;
+    margin: 0 auto 0;
+  }
+  .lead__intro__parrafo {
+    max-width: 288px;
+    margin: 0;
+  }
+}
