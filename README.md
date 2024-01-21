@@ -1,4 +1,5 @@
 # Tripleten web_project_homeland
-El objetivo de este proyecto es practicar grid y el diseño responsivo usando queries
+El contenido de la pagina es acerca de historias y fotografias de personas que utilizan la tecnologia para contar una breve historia del lugar del que procede.
+El objetivo principal  de este proyecto es practicar grid y el diseño responsivo usando queries, ademas de poner en practica todo lo aprendido acerca de html y css hasta ahora.
 
-https://github.com/AnaC-25140/web_project_homeland
+https://anac-25140.github.io/web_project_homeland/

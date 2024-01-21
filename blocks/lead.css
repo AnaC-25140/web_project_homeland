@@ -8,6 +8,7 @@
   letter-spacing: 0em;
   margin: 90px auto 0;
   max-width: 793px;
+  text-align: center;
 }
 .lead__subtitle {
   font-size: 30px;
@@ -16,6 +17,7 @@
   letter-spacing: 0em;
   margin: 32px auto 0;
   max-width: 720px;
+  text-align: center;
 }
 .lead__img {
   width: 984px;
@@ -25,6 +27,7 @@
 .lead__intro {
   width: 1017px;
   height: 516px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   margin: 92px auto 0;
@@ -69,10 +72,11 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    max-width: 720px;
+    width: 720px;
+
   }
   .lead__subtitle {
-    max-width: 720px;
+    width: 720px;
     margin: 99px auto 0;
   }
   .lead__img {
